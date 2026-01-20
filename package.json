@@ -1,14 +1,11 @@
 {
-  "name": "ebay-automation-playwright",
+  "name": "ebay-automation-js",
   "version": "1.0.0",
-  "description": "Playwright Automation Project for ebay page using JavaScript",
-  "main": "index.js",
-  "scripts": {},
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "description": "eBay Related Products Automation in JavaScript",
+  "scripts": {
+    "test": "playwright test"
+  },
   "devDependencies": {
-    "@playwright/test": "^1.57.0",
-    "@types/node": "^25.0.9"
+    "@playwright/test": "^1.40.0"
   }
 }
